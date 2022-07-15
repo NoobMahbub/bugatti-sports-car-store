@@ -1,0 +1,33 @@
+.navbar-light .navbar-brand {
+    color: #d70f64 !important;
+
+}
+
+.header {
+    box-shadow: var(--box-shadow);
+    font-weight: 600;
+}
+
+
+
+.toggle {
+    z-index: 90;
+}
+.nav-link{
+    z-index: 90;
+    gap: 1rem;
+}
+.title{
+    border-block-end: none !important;
+}
+
+@media (min-width: 0) and (max-width: 990px) {
+
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    
+    }
+}

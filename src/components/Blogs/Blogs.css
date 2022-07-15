@@ -1,0 +1,26 @@
+.blogs {
+    width: 50%;
+    background-color: #ffffff;
+    box-shadow: var(--box-shadow);
+    padding: 70px;
+    margin: 15rem auto;
+    border-radius: .5rem;
+}
+
+.blogs p {
+    font-weight: 500;
+    line-height: 25px;
+    text-align: start;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 800px) {
+
+    .blogs {
+        width: 80%;
+        padding: 30px;
+        margin: 4rem auto;
+    }
+
+}
