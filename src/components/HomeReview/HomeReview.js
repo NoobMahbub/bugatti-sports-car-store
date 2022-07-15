@@ -22,7 +22,7 @@ const HomeReview = () => {
                     }
 
                 </div>
-                <Link to='/' className='home-btn ms-auto'>See All Reviews</Link>
+                <Link to='/reviews' className='home-btn ms-auto'>See All Reviews</Link>
             </div>
         </div>
     );
